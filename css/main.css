@@ -1,0 +1,131 @@
+
+
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+  background-image: url(../assets/asukatmb.png);
+}
+header {
+width: 100%;
+height: 100px;
+background-color: rgba(228, 11, 29, 0.966);
+text-align: center;
+font-size: 50px;
+font-weight: bold;
+font-family: 'Roboto Mono', monospace;
+color: rgba(230, 221, 223, 0.925);
+
+}
+
+#boxtext {
+  display: inline-block;
+  position:relative;
+  background-color: white;
+  font-family: 'Indie Flower', cursive;
+  left: 50px;
+  bottom: 25px;
+  width: 450px;
+  height: 210px;
+  font-family: 'Roboto Mono', monospace;
+  /*outline: 2px solid cyan;*/
+
+}
+
+h1 {
+  text-align: left;
+  padding-top: 30px;
+  font-size: 20px;
+}
+p {
+  text-align: left;
+  padding-top: 30px;
+  font-size: 15px;
+}
+
+#btn{
+  /*utline: 2px solid salmon;*/
+  display: inline-block;
+  position:relative;
+  left: 20px;
+  top: 35px;
+  height: 28px;
+  width: 90px;
+  font-family: 'Roboto Mono', monospace;
+  background-color:rgba(228, 11, 29, 0.966);
+  color:rgba(24, 21, 21, 0.925);
+  font-weight: 600;
+}
+
+#boxtext2 {
+  /*outline: 1px solid purple;*/
+  background-color:whitesmoke;
+  display: inline-block;
+  position: relative;
+  border: none;
+  width: 450px;
+  height: 200px;
+  left: 250px;
+  top: 17px;
+  font-family: 'Roboto Mono', monospace;
+}
+#textarea {
+  background-color:whitesmoke;
+  /*outline: 1px solid yellowgreen;*/
+  width: 400px;
+  height: 120px;
+  display: inline-block;
+  position: relative;
+  border: none;
+  left:20px;
+  top: 10px;
+  overflow: hidden;
+  font-family: 'Roboto Mono', monospace;
+}
+
+
+#counter {
+  display: inline-block;
+  /*outline: 1px solid orange;*/
+  position: relative;
+  right:50px;
+  top: 56px;;
+  font-family: 'Roboto Mono', monospace;
+  background-color: whitesmoke
+         
+};
+
+#boxtext3 {
+  display: inline-block;
+  position: relative;
+  /*outline: 1px red solid;*/
+
+}
+
+
+#tweet {
+  display: inline-block;
+  position: relative;
+  /*outline: 1px goldenrod solid;*/
+  left:50px;
+  top: 45px;;
+  font-family: 'Roboto Mono', monospace;
+  background-color: whitesmoke;
+  font-size: 15px;
+  width: 1200px;
+  height: 70px;
+}
+
+#time {
+  display: inline-block;
+  position: relative;
+ /* outline: 1px rgba(32, 119, 218, 0.932) solid;*/
+  left:50px;
+  top: 0px;;
+  font-family: 'Roboto Mono', monospace;
+  background-color: whitesmoke;
+  font-size: 15px;
+  width: 1200px;
+  height: 10px;
+}
